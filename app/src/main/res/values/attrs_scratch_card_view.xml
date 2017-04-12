@@ -1,0 +1,22 @@
+<resources>
+
+    <declare-styleable name="ScratchCardView">
+
+        <attr
+            name="foregroundColor"
+            format="color"
+            />
+
+        <attr
+            name="backgroundDrawable"
+            format="reference"
+            />
+
+        <attr
+            name="strokeWidth"
+            format="integer"
+            />
+
+    </declare-styleable>
+
+</resources>

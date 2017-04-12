@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wzhnsc.testscratchcard.MainActivity">
+
+    <com.example.wzhnsc.testscratchcard.ScratchCardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:foregroundColor="#888888"
+        app:backgroundDrawable="@drawable/icon_verify_code"
+        app:strokeWidth="50"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
